@@ -1,1 +1,1 @@
-Mes fichiers de configuration de vim.
+Mes fichiers de configuration de vi.
