@@ -5,13 +5,14 @@ Mes fichiers de configuration de vim7
 Installation
 ------------
 
-Copier le fichier .vimrc dans le répertoire utilisateur.
+Faire un lien symbolique .vimrc dans le répertoire utilisateur
+pointant vers le fichier .vim/.vimrc
 
 Structure
 ---------
 
-* .vimrc
 * .vim
+  * .vimrc        : fichier de configuration
 	* abbrev.vim    : abbréviations utiles
 	* autocmd.vim   : auto-commands
 	* bundles.vim   : fichier de configuration de vundle.vim
