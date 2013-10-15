@@ -11,8 +11,8 @@ pointant vers le fichier .vim/.vimrc
 Structure
 ---------
 
-* .vim
-  * .vimrc        : fichier de configuration
+* .vimrc : fichier de configuration
+* vimrc/
 	* abbrev.vim    : abbréviations utiles
 	* autocmd.vim   : auto-commands
 	* bundles.vim   : fichier de configuration de vundle.vim
