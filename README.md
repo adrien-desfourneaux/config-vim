@@ -5,8 +5,11 @@ Mes fichiers de configuration de vim7
 Installation
 ------------
 
-Faire un lien symbolique .vimrc dans le répertoire utilisateur
-pointant vers le fichier .vim/.vimrc
+	git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+	git clone https://github.com/dieze/config-vim.git ~/.vim
+	vim +BundleInstall
+	ln -s ~/.vim/.vimrc ~/.vimrc
+	mkdir ~/.vim/backups
 
 Structure
 ---------
