@@ -7,6 +7,11 @@ if has("autocmd")
   autocmd BufWritePre *.py,*.js :call Preserve("%s/\\s\\+$//e") " supprimer les fins de ligne lors de l'enregistrement
   autocmd BufNewFile,BufRead *.t2t set ft=txt2tags
 
+  augroup letmodeline " {{{
+    autocmd BufNewFile * :let b:this_is_new_buffer=1
+    autocmd BufEnter   * :call FirstModeLine()
+  augroup END " }}}
+
   " Zend Framework File Formatting
   augroup Zend
     autocmd!

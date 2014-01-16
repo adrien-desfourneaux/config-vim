@@ -22,12 +22,12 @@ set directory=/Users/adrien/.vim/backups/        " répertoire pour les fichiers
 set encoding=utf8                                " encodage des fichiers
 set errorbells                                   " faire entendre un son en cas d'erreur
 set errorfile=errors.err                         " nom du log d'erreur pour le mode QuickFix
-set expandtab                                  " remplacer les tabs par des espaces
-set ff=unix
+set expandtab                                    " remplacer les tabs par des espaces
+set fileformat=unix                              " détermine le caractère de fin de ligne par défaut
 set fillchars=                                   " caractères utilisés pour remplir la ligne de status et les séparateurs verticaux
 set foldcolumn=1                                 " permet de voir les replis dans une colonne spéciale à gauche de l'écran de la largeur spécifiée
 set foldenable                                   " utilisation des replis
-set foldmarker={*{{,}}*}                         " marqueurs de replis
+set foldmarker={{{,}}}                           " marqueurs de replis
 set foldmethod=marker                            " replis bases sur l'indentation
 set helpfile=$VIMRUNTIME/doc/help.txt            " nom du fichier d'aide principal
 set hidden                                       " permet de cacher le buffer meme s'il contient des donnees non enregistrees

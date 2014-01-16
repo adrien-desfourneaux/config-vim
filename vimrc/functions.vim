@@ -1,6 +1,8 @@
 " functions.vim : list of functions sourced by vimrc
 
 function! Preserve(command)
+  " Exécute une commande et rétablit l'environnement d'avant son exécution
+  
   " preparation: sauvegarder la derniere recherche, et la position du curseur.
   let _s=@/
   let l = line(".")
@@ -29,7 +31,6 @@ function! ToggleCreateWin(command,pos,w,h)
     endif
   endif
 endfunction
-
 
 let s:ToggleFunc_HomeWin = ""
 function! Toggle(buf, command, pos, w, h, gohome)
