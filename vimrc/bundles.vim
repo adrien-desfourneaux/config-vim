@@ -19,42 +19,30 @@ Bundle 'gmarik/vundle'
 " non github repos
 " Bundle 'git://git.wincent.com/command-t.git'
 
-" Align : Help folks to align text, eqns, declarations, tables, etc {{{
+" Align : Help folks to align text, eqns, declarations, tables, etc {{{1
 " :Align     - the basic alignment command
 " :AlignCtrl - provides options for the next call to :Align
 " :AlignMaps - many three or four key maps which support aligning C/C++ objects
 Bundle 'Align'
-" }}}
-
-" AutoAlign : Automatically align as you type {{{
+" AutoAlign : Automatically align as you type {{{1
 Bundle 'AutoAlign'
-" }}}
-
-" BufOnly.vim : Delete all the buffers except the current/named buffer {{{
+" BufOnly.vim : Delete all the buffers except the current/named buffer {{{1
 " :BufOnly       - unload all buffers but the current one
 " :BufOnly <arg> - close all buffers but the supplied buffer name/number
 Bundle 'BufOnly.vim'
-" }}}
-
-" Butane: Vim Buffer Utilities {{{
+" Butane: Vim Buffer Utilities {{{1
 " :Bclose[!] - :bdelete without changing the window layout
 Bundle 'Soares/butane.vim'
-" }}}
-
-" CamelCaseComplete : Insert mode completion that expands CamelCaseWords and underscore_words {{{
+" CamelCaseComplete : Insert mode completion that expands CamelCaseWords and underscore_words {{{1
 " <C-X><C-C>     - Find matches for CamelCaseWords and underscore_words
 "                  whose individual word fragments begin with the typed
 "                  letters in front of the cursor.
 Bundle 'CamelCaseComplete'
-" }}}
-
-" EnhCommentify.vim : Comment lines in a program {{{
+" EnhCommentify.vim : Comment lines in a program {{{1
 " <Leader>x      - Comment/Decomment
 " <Leader>c      - Comment/Decomment + one line down
 Bundle 'EnhCommentify.vim'
-" }}}
-
-" FuzzyFinder : Buffer/file/command/tag/etc explorer with fuzzy matching {{{
+" FuzzyFinder : Buffer/file/command/tag/etc explorer with fuzzy matching {{{1
 " :FufBuffer       - Select a buffer from a list of existing buffers and open it
 " :FufFile         - Search a file tree for a file and open it
 " :FufCoverageFile - Select a file from all files of a preset coverage and open it
@@ -72,13 +60,9 @@ Bundle 'EnhCommentify.vim'
 " :FufLine         - Select a line from current buffer and jump there
 " :FufHelp         - Select a help tag and jump to the help page
 Bundle 'FuzzyFinder'
-" }}}
-
-" L9 : Vim-script library {{{
+" L9 : Vim-script library {{{1
 Bundle 'L9'
-" }}}
-
-" LaTeX Box : Lightweight Toolbox for LaTeX {{{
+" LaTeX Box : Lightweight Toolbox for LaTeX {{{1
 " :Latexmk        - Compile with latexmk
 " :Latexmk!       - Force compilation with latexmk
 " :LatexmkClean   - Clean temporary output from LaTeX
@@ -90,9 +74,7 @@ Bundle 'L9'
 " :LatexView      - Launch viewer on output file
 " :LatexTOC       - Open a table of contents (use Enter to navigate to selected entry)
 Bundle 'LaTeX-Box-Team/LaTeX-Box'
-" }}}
-
-" SQLUtilities : SQL utilities - Formatting, generate - columns lists, procedures for databases {{{
+" SQLUtilities : SQL utilities - Formatting, generate - columns lists, procedures for databases {{{1
 " [range]SQLUFormatter(..list..)                - Formats SQL statements into a easily readable form
 " SQLUCreateColumnList( optional parameter )    - Create column list of already known (buffer-present CREATE statement) table under cursor
 " SQLUGetColumnDef( optional parameter ),
@@ -104,41 +86,31 @@ Bundle 'LaTeX-Box-Team/LaTeX-Box'
 " :SQLUGetColumnDataType                        - Displays the column datatype of the column name under the cursor
 " :SQLUCreateProcedure                          - Creates a stored procedure to perform standard operations against the table that the cursor
 Bundle 'SQLUtilities'
-" }}}
-
-" SrcExpl : A (G)Vim plugin for exploring the source code based on "tags", and it works like the context window of "Source Insight" {{{
+" SrcExpl : A (G)Vim plugin for exploring the source code based on "tags", and it works like the context window of "Source Insight" {{{1
 " :SrcExpl - Open the Source Explorer window
 " :SrcExplClose - Close the Source Explorer window
 " :SrcExplToggle - Toogle the Source Explorer window
 Bundle 'wesleyche/SrcExpl'
-" }}}
-
-" Trinity : A (G)Vim plugin which build the trinity of Source Explorer, TagList and NERD tree to be an IDE for software development {{{
+" Trinity : A (G)Vim plugin which build the trinity of Source Explorer, TagList and NERD tree to be an IDE for software development {{{1
 " :TrinityToggleAll - Open and close TagList, NERD Tree and Source Explorer
 " :TrinityToggleSourceExplorer - Open and close the Source Explorer
 " :TrinityToggleTagList - Open and close the TagList
 " :TrinityToggleNERDTree - Open and close the NERD Tree
 Bundle 'wesleyche/Trinity'
-" }}}
-
-" UltiSnips : The ultimate snippet solution for python enabled Vim {{{
+" UltiSnips : The ultimate snippet solution for python enabled Vim {{{1
 " :UltiSnipsAddFiletypes <ext1.ext2>  - explicit merging of other snippet filetypes for the current buffer
 " g:UltiSnipsExpandTrigger               <tab>
 " g:UltiSnipsListSnippets                <c-tab>
 " g:UltiSnipsJumpForwardTrigger          <c-j>
 " g:UltiSnipsJumpBackwardTrigger         <c-k>
 Bundle 'SirVer/ultisnips'
-" }}}
-
-" VOoM : Vim two-pane outliner {{{
+" VOoM : Vim two-pane outliner {{{1
 " :Voom [MarkupMode]  - Create the outline for the current buffer
 " :Voomhelp           - Open voom.txt as an outline in a new tabpage
 " :Voomexec [vim|py]  - Execute node or fold as [type] script
 " :Voomlog            - Create __PyLog__ buffer
 Bundle 'VOoM'
-" }}}
-
-" YankRing.vim : Maintains a history of previous yanks, changes and deletes{{{
+" YankRing.vim : Maintains a history of previous yanks, changes and deletes{{{1
 " :YRToggle [1|0]     - Enable/Disable YankRing
 " :YRClear            - Clear all elements from the yankring
 " :YRShow             - Display all the entries in the yankring
@@ -160,7 +132,7 @@ Bundle 'VOoM'
 Bundle 'YankRing.vim'
 " }}}
 
-" a.vim : Alternate Files quickly (.c --> .h etc) {{{
+" a.vim : Alternate Files quickly (.c --> .h etc) {{{1
 " :A          - Switches to the header file corresponding to the current file being edited (or vise versa)
 " :AS         - Splits and switches
 " :AV         - Vertical splits and switches
@@ -175,9 +147,7 @@ Bundle 'YankRing.vim'
 " <Leader>is  - Switches to the alternate file of file under cursor (e.g. on <foo.h> switches to foo.cpp)
 " <Leader>ihn - Cycles through matches
 Bundle 'a.vim'
-" }}}
-
-" dbext.vim : Provides database access to many DBMS (Oracle, Sybase, Microsoft, MySQL, DBI,..) {{{
+" dbext.vim : Provides database access to many DBMS (Oracle, Sybase, Microsoft, MySQL, DBI,..) {{{1
 " Visual Mode :
 " <Leader>se  :<,'>DBExecVisualSQL - Execute SQL visually selected
 " <Leader>st  :DBSelectFromTable   - Select * from the table visually selected
@@ -253,21 +223,15 @@ Bundle 'a.vim'
 "                          output.
 "                          This will toggle the current display.
 Bundle 'dbext.vim'
-" }}}
-
-" let-modeline.vim : Extends the modeline feature to the assignment of variables {{{
+" let-modeline.vim : Extends the modeline feature to the assignment of variables {{{1
 " FirstModeLine() - Read extended modeline on current buffer
 " example : " VIM: let b:toto="foo" g:tata=4 g:egal="t=y".&tw $CPPFLAG='-I../../libs' 
 Bundle 'let-modeline.vim'
-" }}}
-
-" loremipsum : A dummy text generator {{{
+" loremipsum : A dummy text generator {{{1
 " :Loremipsum[!] [WORDCOUNT] [PARAGRAPH_TEMPLATE] [PREFIX POSTFIX] - Insert some random text.
 " :Loreplace [REPLACEMENT] [PREFIX] [POSTFIX]                      - Replace the random text with something else or simply remove it.
 Bundle 'loremipsum'
-" }}}
-
-" matchit.zip : Extended % matching for HTML, LaTeX, and many other languages {{{
+" matchit.zip : Extended % matching for HTML, LaTeX, and many other languages {{{1
 " % - Cycle forward through matching groups (eg: "if", "else", "endif", etc...)
 " g% - Cycle backwards through matching groups (go from "if" to "endif" to "else")
 " [% - Got to [count] previous unmatched group
@@ -275,8 +239,9 @@ Bundle 'loremipsum'
 " a% (visual) - Select the matching group containing the cursor
 Bundle 'matchit.zip'
 " }}}
-
-" mru.vim : Plugin to manage Most Recently Used (MRU) files {{{
+" minibufexpl.vim : Elegant buffer explorer - takes very little screen space
+Bundle 'fholgado/minibufexpl.vim'
+" mru.vim : Plugin to manage Most Recently Used (MRU) files {{{1
 " :MRU           - Display the MRU file list
 "                  visually select files or move cursor to a file
 "                  press <Enter> to select a file to edit
@@ -291,15 +256,11 @@ Bundle 'matchit.zip'
 " :MRU patt<Tab>
 " :MRU patt<C-D> - command-line completion of file name
 Bundle 'yegappan/mru'
-" }}}
-
-" pdv : PHP Documentor for VIM - Generates PHP docblocks {{{
+" pdv : PHP Documentor for VIM - Generates PHP docblocks {{{1
 " pdv#DocumentCurrentLine() - Generates the doc block using the templates from the template directory
 " pdv#DocumentWithSnip() - Generates the doc block and put UltiSnips snippets right after the doc block
 Bundle 'tobyS/pdv'
-" }}}
-
-" project.tar.gz : Organize/Navigate projects of files (like IDE/buffer explorer) {{{
+" project.tar.gz : Organize/Navigate projects of files (like IDE/buffer explorer) {{{1
 " :Project - Open the default project file ($HOME/.vimprojects)
 " :Project <file> - Open the project file given
 " Mappings :
@@ -332,9 +293,7 @@ Bundle 'tobyS/pdv'
 "           \E         - Explore the directory of the project the cursor is in
 "           <F12>      - Toggle the Project window open and closed
 Bundle 'project.tar.gz'
-" }}}
-
-" repeat.vim : Use the repeat command (.) with supported plugins {{{
+" repeat.vim : Use the repeat command (.) with supported plugins {{{1
 " Supported plugins :
 "   - surround.vim
 "   - speeddating.vim
@@ -342,9 +301,7 @@ Bundle 'project.tar.gz'
 "   - unimpaired.vim
 "   - commentary.vim
 Bundle 'repeat.vim'
-" }}}
-
-" sessionman.vim : Vim session manager {{{
+" sessionman.vim : Vim session manager {{{1
 " :SessionOpen <name>   - Open a new/existing session
 " :SessionOpenLast      - Open the last session
 " :SessionClose         - Close session
@@ -352,9 +309,7 @@ Bundle 'repeat.vim'
 " :SessionSaveAs <name> - Save the current editing session, optionally ask for a session name
 " :SessionShowLast      - Show the content of the last session
 Bundle 'sessionman.vim'
-" }}}
-
-" snipMate.vim : Use TextMate's snippets features in Vim {{{
+" snipMate.vim : Use TextMate's snippets features in Vim {{{1
 "            :SnipMateOpenSnippetFiles - Open a list of all valid snippet locations
 " <Tab>      :snipMateNextOrTrigger    - Jump to the next tab stop or try to expand a snippet
 "            :snipMateTrigger          - Try to expand a snippet regardless of any existing snippet expansion
@@ -363,9 +318,7 @@ Bundle 'sessionman.vim'
 " <Tab>      :snipMateVisual           - Replace visual snippet placeholder {VISUAL}
 "
 Bundle "garbas/vim-snipmate"
-" }}}
-
-" surround.vim : Delete/change/add parentheses/quotes/XML-tags/much more with ease {{{
+" surround.vim : Delete/change/add parentheses/quotes/XML-tags/much more with ease {{{1
 " ds  - Delete surroundings
 " cs  - Change surroundings
 " ys  - "You surround"
@@ -374,13 +327,9 @@ Bundle "garbas/vim-snipmate"
 " ySS - same as yS
 " some others exist
 Bundle 'surround.vim'
-" }}}
-
-" surrparen : Hilights a pair of parens/braces that surround the cursor {{{
+" surrparen : Hilights a pair of parens/braces that surround the cursor {{{1
 Bundle 'surrparen'
-" }}}
-
-" taglist.vim : Source code browser (supports C/C++, java, perl, python, tcl, sql, php, etc) {{{
+" taglist.vim : Source code browser (supports C/C++, java, perl, python, tcl, sql, php, etc) {{{1
 " <F8> :TlistToggle       - Open the taglist window
 " :TlistClose             - Close the taglist window
 " :TlistOpen              - Open the taglist window
@@ -419,21 +368,13 @@ Bundle 'surrparen'
 " :TlistMessages          - Display the logged debug messages
 " :TlistUndebug           - Disable the loggin of the debug messages
 Bundle 'taglist.vim'
-" }}}
-
-" textutil.vim : Vim plugin for editing rtf,rtfd,doc,wordml files {{{
+" textutil.vim : Vim plugin for editing rtf,rtfd,doc,wordml files {{{1
 Bundle 'textutil.vim'
-" }}}
-
-" tlib_vim : Some utility functions for VIM {{{
+" tlib_vim : Some utility functions for VIM {{{1
 Bundle "tomtom/tlib_vim"
-" }}}
-
-" txt2tags : Syntax highlighting for txt2tags documents {{{
+" txt2tags : Syntax highlighting for txt2tags documents {{{1
 Bundle 'txt2tags'
-" }}}
-
-" vdebug : Multi-language DBGP debugger client for Vim (PHP, Python, Perl, Ruby, etc.) {{{
+" vdebug : Multi-language DBGP debugger client for Vim (PHP, Python, Perl, Ruby, etc.) {{{1
 " <F5>  - Run
 " <F2>  - Step over
 " <F3>  - Step in
@@ -454,22 +395,14 @@ Bundle 'txt2tags'
 " <Leader>e (visual) <F12> :VdebugEval <code> - Evaluate an expression
 " :VdebugOpt <name> [<value>]                 - Retrieve/Set option
 Bundle 'joonty/vdebug.git' 
-" }}}
-
-" vim-addon-mw-utils : Interpret a file by function and cache file automatically {{{
+" vim-addon-mw-utils : Interpret a file by function and cache file automatically {{{1
 Bundle "MarcWeber/vim-addon-mw-utils"
-" }}}
-
-" vim-bda : Simple VIM plugin to delete all open buffers {{{
+" vim-bda : Simple VIM plugin to delete all open buffers {{{1
 " :Bda - Delete all buffers
 Bundle 'jlipps/vim-bda'
-" }}}
-
-" vim-json : Better JSON for VIM {{{
+" vim-json : Better JSON for VIM {{{1
 Bundle 'elzr/vim-json'
-" }}}
-
-" vim-phpqa : PHP QA Tools For Vim {{{
+" vim-phpqa : PHP QA Tools For Vim {{{1
 " <Leader>qa - Show/hide code sniffer and mess detector violations
 " <Leader>qc - Show/hide code coverage markers
 " :Php       - Check for syntax errors
@@ -477,18 +410,12 @@ Bundle 'elzr/vim-json'
 " :Phpmd     - Run mess detector
 " :Phpcc     - Show code coverage
 Bundle 'joonty/vim-phpqa.git'
-" }}}
-
-" vim-snippets : Vim-snipmate default snippets {{{
+" vim-snippets : Vim-snipmate default snippets {{{1
 Bundle "honza/vim-snippets"
-" }}}
-
-" vim-vagrant : Basic vim/vagrant integration {{{
+" vim-vagrant : Basic vim/vagrant integration {{{1
 " :Vagrant [args] - Invoke an arbitrary vagrant command
 Bundle 'vim-scripts/vim-vagrant'
-" }}}
-
-" vmustache : Mustache template system for VIMScript {{{
+" vmustache : Mustache template system for VIMScript {{{1
 " Required by pdv
 Bundle 'tobyS/vmustache'
 " }}}
