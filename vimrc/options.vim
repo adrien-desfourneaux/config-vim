@@ -53,17 +53,17 @@ set numberwidth=3                                " nombre de colonnes pour les n
 set ruler                                        " afficher la règle
 set rulerformat=%27(%{strftime('%a\ %e\ %b\ %I:%M\ %p')}\ %2l,%-2(%c%V%)\ %P%)  " format de la règle
 set scrolloff=3                                  " nombre minimum de lignes d'écran à garder au dessus et en dessous du curseur
-set shiftwidth=2                                 " nombre de colonnes d'une tabulation avec >>, <<, c-indent
+set shiftwidth=4                                 " nombre de colonnes d'une tabulation avec >>, <<, c-indent
 set showbreak=                                   " caractère(s) à afficher devant la ligne wrappé
 set showcmd                                      " afficher les commandes incompletes
 set showmatch                                    " a la fermeture d'une parenthese sauter sur la parenthese ouvrante (+beep si erreur)
 set smartindent                                  " étend autoindent pour indenter correctement avant/après { / } et les mot clés de cinwords
-set softtabstop=2                                " nombre de colonnes d'une <TAB> pendant l'édition
+set softtabstop=4                                " nombre de colonnes d'une <TAB> pendant l'édition
 set spelllang=fr                                 " activation de spell en francais
 set splitbelow                                   " split ouvre ses fenêtres en dessous
 set splitright                                   " vsplit ouvre ses fenêtres à droite
 set statusline=%F%m%r%h%w\ [TYPE=%Y\ %{&ff}]\ [%l/%L\ (%p%%)]\ (%l\:%c) "format de la ligne de status
-set tabstop=2                                    " taille d'un <TAB>
+set tabstop=8                                    " taille d'un <TAB>
 set textwidth=0                                  " longueur maximum d'une ligne dans un buffer
 set undolevels=2000                              " nombre maximum de changements qui peuvent être annulés
 set vb t_vb=                                     " pas de flash sur l'écran en cas d'erreurs
