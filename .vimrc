@@ -2,7 +2,6 @@
 
 " load first
 source $HOME/.vim/vimrc/bundles.vim
-source $HOME/.vim/vimrc/variables.vim
 source $HOME/.vim/vimrc/functions.vim
 
 source $HOME/.vim/vimrc/abbrev.vim
