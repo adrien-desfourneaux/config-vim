@@ -53,12 +53,12 @@ set numberwidth=3                                " nombre de colonnes pour les n
 set ruler                                        " afficher la règle
 set rulerformat=%27(%{strftime('%a\ %e\ %b\ %I:%M\ %p')}\ %2l,%-2(%c%V%)\ %P%)  " format de la règle
 set scrolloff=3                                  " nombre minimum de lignes d'écran à garder au dessus et en dessous du curseur
-set shiftwidth=4                                 " nombre de colonnes d'une tabulation avec >>, <<, c-indent
+set shiftwidth=2                                 " nombre de colonnes d'une tabulation avec >>, <<, c-indent
 set showbreak=                                   " caractère(s) à afficher devant la ligne wrappé
 set showcmd                                      " afficher les commandes incompletes
 set showmatch                                    " a la fermeture d'une parenthese sauter sur la parenthese ouvrante (+beep si erreur)
 set smartindent                                  " étend autoindent pour indenter correctement avant/après { / } et les mot clés de cinwords
-set softtabstop=4                                " nombre de colonnes d'une <TAB> pendant l'édition
+set softtabstop=2                                " nombre de colonnes d'une <TAB> pendant l'édition
 set spelllang=fr                                 " activation de spell en francais
 set splitbelow                                   " split ouvre ses fenêtres en dessous
 set splitright                                   " vsplit ouvre ses fenêtres à droite
