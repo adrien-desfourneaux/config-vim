@@ -11,14 +11,14 @@ set autoindent                                   " copier l'indentation de la li
 set autoread                                     " si modification exterieure, rechargement auto
 set background=dark                              " fond noir
 set backspace=2                                  " <B-S> indent,eol,start en
-set backupdir=/Users/adrien/.vim/backups         " répertoire pour les fichiers de sauvegarde
+set backupdir=~/.vim/backups                     " répertoire pour les fichiers de sauvegarde
 set backupext=~                                  " extension des copies de sauvegarde
 set bufhidden=hide                               " cacher le buffer quand il n'est plus affiché dans aucune fenêtre
 set cedit=<C-F>                                  " caractère à utiliser depuis la ligne de commande pour ouvrir la fenêtre de commande
 set cmdheight=1                                  " nombre de lignes pour afficher la ligne de commande
 set cmdwinheight=7                               " nombre de lignes pour afficher la fenêtre de commande
 set complete=.,w,b,u,t,i                         " spécifie le type de complétion et les endroits à scruter
-set directory=/Users/adrien/.vim/backups/        " répertoire pour les fichiers swap
+set directory=~/.vim/backups/                    " répertoire pour les fichiers swap
 set encoding=utf8                                " encodage des fichiers
 set errorbells                                   " faire entendre un son en cas d'erreur
 set errorfile=errors.err                         " nom du log d'erreur pour le mode QuickFix
