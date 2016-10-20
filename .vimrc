@@ -1,7 +1,7 @@
 "vimrc : configuration file for vim
 
 " load first
-source $HOME/.vim/vimrc/bundles.vim
+source $HOME/.vim/vimrc/plugins.vim
 source $HOME/.vim/vimrc/functions.vim
 
 source $HOME/.vim/vimrc/abbrev.vim
