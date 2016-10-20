@@ -239,7 +239,7 @@ Bundle 'loremipsum'
 " a% (visual) - Select the matching group containing the cursor
 Bundle 'matchit.zip'
 " }}}
-" minibufexpl.vim : Elegant buffer explorer - takes very little screen space
+" minibufexpl.vim : Elegant buffer explorer - takes very little screen space {{{1
 Bundle 'fholgado/minibufexpl.vim'
 " mru.vim : Plugin to manage Most Recently Used (MRU) files {{{1
 " :MRU           - Display the MRU file list
