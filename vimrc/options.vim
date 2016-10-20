@@ -65,6 +65,7 @@ set splitright                                   " vsplit ouvre ses fenêtres à
 set statusline=%F%m%r%h%w\ [TYPE=%Y\ %{&ff}]\ [%l/%L\ (%p%%)]\ (%l\:%c) "format de la ligne de status
 set tabstop=8                                    " taille d'un <TAB>
 set textwidth=0                                  " longueur maximum d'une ligne dans un buffer
+set fixendofline                                 " ajoute un retour à la ligne en fin de fichier si nécéssaire
 set undolevels=2000                              " nombre maximum de changements qui peuvent être annulés
 set vb t_vb=                                     " pas de flash sur l'écran en cas d'erreurs
 set verbose=0                                    " niveau de verbosité de vim
