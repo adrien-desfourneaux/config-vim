@@ -6,7 +6,7 @@ Installation
 ------------
 
 	git clone https://github.com/dieze/config-vim.git ~/.vim
-	git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+	git clone https://github.com/VundleVim/Vundle.vim ~/.vim/bundle/Vundle.vim
 	ln -s ~/.vim/.vimrc ~/.vimrc
 	vim +BundleInstall
 	mkdir ~/.vim/backups
