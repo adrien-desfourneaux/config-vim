@@ -1,5 +1,6 @@
+tmp/
+!tmp/.gitkeep
+
 .netrwhist
-bundle/
 mru
 viminfo
-backups/
