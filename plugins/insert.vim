@@ -25,7 +25,7 @@ Plug 'vim-scripts/repeat.vim'
 " g:UltiSnipsListSnippets                <c-tab>
 " g:UltiSnipsJumpForwardTrigger          <c-j>
 " g:UltiSnipsJumpBackwardTrigger         <c-k>
-Plug 'SirVer/ultisnips'
+Plug 'SirVer/ultisnips', { 'tag': '3.2' }
 " snipMate.vim : Use TextMate's snippets features in Vim {{{1
 "            :SnipMateOpenSnippetFiles - Open a list of all valid snippet locations
 " <Tab>      :snipMateNextOrTrigger    - Jump to the next tab stop or try to expand a snippet
